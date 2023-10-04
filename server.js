@@ -4,6 +4,7 @@ const app = express();
 const hostname='0.0.0.0';
 const port = 3000;
 
+
 // Serve static images from the 'images' folder
 app.use(express.static('images'));
 
